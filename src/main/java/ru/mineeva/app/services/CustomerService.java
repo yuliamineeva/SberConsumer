@@ -10,18 +10,22 @@ import ru.mineeva.app.model.CustomerRequest;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.List;
 
 
 @Slf4j
 @Service
 public class CustomerService {
 
-    final String OUTPUT_FILENAME = "C:\\ForJava\\Projects\\Test\\customers\\output.txt";
+    final String OUTPUT_FILENAME = "C:\\ForJava\\Repositories\\Sber\\customers\\output.txt";
 
     public CustomerService() {
     }
 
+    /**
+     * Извлечение объектов Customer и Contact
+     *
+     * @param customerRequest запрос для сохранения
+     */
     public void saveCustomerRequest(CustomerRequest customerRequest) {
         log.info("Сохранение customerRequest");
         Contact contact = customerRequest.getContact();
@@ -34,22 +38,12 @@ public class CustomerService {
         writeToOutputFile(OUTPUT_FILENAME, customer.toString());
     }
 
-//    public void saveCustomer(CustomerImport customerImport) {
-//        log.info("Сохранение элемента");
-//        Customer customer = new Customer(customerImport);
-//        System.out.println("Метод saveCustomer" + customer);
-//        writeToOutputFile(OUTPUT_FILENAME, customer.toString());
-//
-//    }
-//
-//    public void saveContact(Contact contactImport) {
-//        log.info("Сохранение элемента Contact");
-//        Contact contact = new Contact();
-//        contact.setPhone(contactImport.getPhone());
-//        contact.setEmail(contactImport.getEmail());
-//        writeToOutputFile(OUTPUT_FILENAME, contact.toString());
-//    }
-
+    /**
+     * Запись объекта Customer в файл
+     *
+     * @param fileName имя файла
+     * @param customer объект Customer, содержащий Contact
+     */
     public void writeToOutputFile(String fileName, String customer) {
         try (BufferedWriter bw = new BufferedWriter(new FileWriter(fileName, true))) {
             bw.write(customer);
