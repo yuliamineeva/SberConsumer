@@ -1,0 +1,9 @@
+Customer{Contact{phone='3335566', email='ivan@yandex.ru'}, login='ivanovIvan', firstname='Иван', lastname='Иванов', patronymic='Иванович', passportSeries='6533', numberSeries='123456'}
+Customer{Contact{phone='333111222', email='vasil@yandex.ru'}, login='cutumer1', firstname='Василий', lastname='Васильев', patronymic='Иванович', passportSeries='2255', numberSeries='365896'}
+Customer{Contact{phone='44455522', email='egor@yandex.ru'}, login='cutumer2', firstname='Егор', lastname='Огурцов', patronymic='Николаевич', passportSeries='1111', numberSeries='222222'}
+Customer{Contact{phone='44455522', email='cust3@yandex.ru'}, login='cutumer3', firstname='Мария', lastname='Огурцова', patronymic='Николаевна', passportSeries='2222', numberSeries='123456'}
+Customer{Contact{phone='44455522', email='maria@yandex.ru'}, login='maria', firstname='Мария', lastname='Огурцова', patronymic='Николаевна', passportSeries='2222', numberSeries='123456'}
+Customer{Contact{phone='44455522', email='login@yandex.ru'}, login='login', firstname='Светлана', lastname='Огурцова', patronymic='Николаевна', passportSeries='2222', numberSeries='123456'}
+Customer{Contact{phone='44455522', email='trel@yandex.ru'}, login='trel', firstname='Светлана', lastname='Огурцова', patronymic='Николаевна', passportSeries='2222', numberSeries='123456'}
+Customer{Contact{phone='44455522', email='svetl@yandex.ru'}, login='svetl', firstname='Светлана', lastname='Огурцова', patronymic='Николаевна', passportSeries='2222', numberSeries='123456'}
+Customer{Contact{phone='33325622', email='email@yandex.ru'}, login='log555', firstname='Stephan', lastname='Petrov', patronymic='Ilyich', passportSeries='2222', numberSeries='123456'}
