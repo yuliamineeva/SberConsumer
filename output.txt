@@ -7,3 +7,5 @@ Customer{Contact{phone='44455522', email='login@yandex.ru'}, login='login', firs
 Customer{Contact{phone='44455522', email='trel@yandex.ru'}, login='trel', firstname='Светлана', lastname='Огурцова', patronymic='Николаевна', passportSeries='2222', numberSeries='123456'}
 Customer{Contact{phone='44455522', email='svetl@yandex.ru'}, login='svetl', firstname='Светлана', lastname='Огурцова', patronymic='Николаевна', passportSeries='2222', numberSeries='123456'}
 Customer{Contact{phone='33325622', email='email@yandex.ru'}, login='log555', firstname='Stephan', lastname='Petrov', patronymic='Ilyich', passportSeries='2222', numberSeries='123456'}
+Customer{Contact{phone='7894561123', email='123456l@mail.ru'}, login='customer22', firstname='Olga', lastname='Sidorova', patronymic='Makarovna', passportSeries='4569', numberSeries='789654'}
+Customer{Contact{phone='7894561123', email='123456l@mail.ru'}, login='Stepan5', firstname='Stepan', lastname='Orlov', patronymic='Alekseevich', passportSeries='4569', numberSeries='789654'}

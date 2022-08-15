@@ -17,6 +17,7 @@ import java.io.IOException;
 public class CustomerService {
 
     final String OUTPUT_FILENAME = "C:\\ForJava\\Repositories\\Sber\\customers\\output.txt";
+//    final String OUTPUT_FILENAME = "output.txt"; // C:\ForJava\Programms\apache-tomcat-9.0.65\bin\output.txt
 
     public CustomerService() {
     }
